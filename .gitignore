@@ -24,6 +24,7 @@ install_manifest.txt
 SimpleAbcViewer
 abcview
 build
+obj-x86*
 
 # Build Folder
 BUILD

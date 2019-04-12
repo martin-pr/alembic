@@ -1,0 +1,16 @@
+Source: alembic-cg
+Section: graphics
+Priority: optional
+Maintainer: Lucas Miller <miller.lucas@gmail.com>
+Build-Depends: debhelper (>= 10), cmake, libboost-all-dev, libtbb-dev, libpthread-stubs0-dev, libopenexr-dev, libilmbase-dev, libpthread-workqueue-dev, pkg-config
+Standards-Version: 4.1.2
+Homepage: https://github.com/alembic/alembic
+Vcs-Git: https://github.com/alembic/alembic
+Vcs-Browser: https://github.com/alembic/alembic
+
+Package: alembic-cg
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Alembic is an open framework for storing and sharing scene data that includes a C++ library, a file format, and client plugins and applications.
+  Alembic is an open framework for storing and sharing scene data that
+  includes a C++ library, a file format, and client plugins and applications.
